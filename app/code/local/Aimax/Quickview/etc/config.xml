@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<modules>
+		<Aimax_Quickview>
+			<version>1.0</version>
+		</Aimax_Quickview>
+	</modules>
+
+	<global>
+		<blocks>
+			<aimax_quickview>
+				<class>Aimax_Quickview_Block</class>
+			</aimax_quickview>
+		</blocks>
+	</global>
+
+	<frontend>
+		<routers>
+			<aimax_quickview>
+				<use>standard</use>
+				<args>
+					<module>Aimax_Quickview</module>
+					<frontName>quick</frontName>
+				</args>
+			</aimax_quickview>
+		</routers>
+		<layout>
+            <updates>
+                <aimax_quickview>
+                    <file>quickview/quickview.xml</file>
+                </aimax_quickview>
+            </updates>
+        </layout>
+	</frontend>
+</config>

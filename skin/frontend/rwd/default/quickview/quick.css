@@ -1,0 +1,30 @@
+.quickview-wrap .product-shop
+{
+	padding-right: 15px;
+}
+.quickview-wrap
+{
+	padding: 15px 0px;
+}
+.product-img-box .product-image img
+{
+	max-height: 400px !important;
+}
+.product-view .add-to-cart-wrapper
+{
+	float: left !important;
+}
+.quickview-wrap .product-code
+{
+	max-width: 100% !important;
+}
+.quickview-wrap .add-to-cart-wrapper
+{
+	width: 100% !important;
+}
+.add-to-cart-wrapper1
+{
+	background-color: #FAF8F9;
+    padding-top: 10px;
+    border: 1px solid #cccccc;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Qaz_Qzoom>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Qaz_Qzoom>
+    </modules>
+</config> 
+<!-- This extension for Zoom Image in Product Detail -->

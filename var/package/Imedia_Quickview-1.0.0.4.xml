@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Imedia_Quickview</name>
+    <version>1.0.0.4</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSLv3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Product Quick View on category page</summary>
+    <description>Customer can quickly view and add to cart the product on category page.</description>
+    <notes>Second Stable release</notes>
+    <authors><author><name>iMedia inc.</name><user>imedia</user><email>info@imediadesigns.org</email></author></authors>
+    <date>2015-07-31</date>
+    <time>08:47:05</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Imedia_Quickview.xml" hash="d63d93c317e98733d1377951558bfbef"/></dir></target><target name="magecommunity"><dir name="Imedia"><dir name="Quickview"><dir name="Helper"><file name="Data.php" hash="2ea129e9fe1d6b3d6f9ab32df180119b"/></dir><dir name="controllers"><file name="IndexController.php" hash="edc7320414b335fd049ce6e770cf223f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="32175e30db398f39ec3d4863cbc67dd1"/><file name="config.xml" hash="7a3ae28553b4f3850abeeab1b4d899a8"/><file name="system.xml" hash="07f860358056e6f25646f13db92128b6"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="imedia"><file name="quickview.xml" hash="ddf5ef04ec12834eea6a06827db1c054"/></dir></dir><dir name="template"><dir name="imedia"><dir name="quickview"><dir name="catalog"><dir name="product"><file name="list.phtml" hash="412e4c9b3ff6a1f07280964dcc56fa65"/></dir></dir><file name="view.phtml" hash="630b9490395eb5488abe0d7a4b4a7c48"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="imedia"><file name="quickview.css" hash="c43837e47f0cae1f76a3f74c5a5aaa3f"/><dir name="images"><file name="pop-up-close.png" hash="c6187020c04f4b60ab74fd3bf40fabd4"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

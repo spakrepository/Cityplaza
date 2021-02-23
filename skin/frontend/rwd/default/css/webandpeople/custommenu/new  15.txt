@@ -1,0 +1,58 @@
+<div class="cp-static-page">
+	<div class="col2-image">
+		<img src="{{media url="wysiwyg/inner-img.jpg"}}" alt="" />
+	</div>
+	<div class="col2-contents">
+		<div class="col-offers">
+			<div class="offers-title"><h3>Types :</h3></div>
+			<div class="offers-list">
+					<div>Poly Viscose	</div>
+					<div>Poly Wool		</div>
+					<div>Pemium Tr		</div>
+					<div>Cotton		</div>
+					<div>Linen			</div>
+			</div>
+		</div>
+		<div class="col-brands">
+			<div class="brands-title"><h3>Brands :</h3></div>
+			<div class="brands-list">
+					<div>Siyaram		</div>
+					<div>Harvic			</div>
+					<div>Donear			</div>
+					<div>BSL			</div>
+					<div>Grasim			</div>
+					<div>Vimal			</div>
+					<div>Mafatlal		</div>
+					<div>Brillanto		</div>
+					<div>Santogen		</div>
+					<div>Graviera		</div>
+					<div>True Value		</div>
+					<div>Mahajan		</div>
+					<div>Mayur			</div>
+					<div>TR				</div>
+					<div>Imported		</div>
+					<div>Arvind			</div>
+					<div>Italian		</div>
+					<div>Asnima			</div>
+					<div>Denim			</div>
+					<div>Eurico			</div>
+					<div>Raymond		</div>
+					<div>Reid & Taylor	</div>
+					<div>J Hamstead		</div>
+					<div>Digjam			</div>
+					<div>OCM			</div>
+					<div>Dinesh			</div>
+			</div>
+		</div>
+		<div class="col-description">
+			<div class="description-title"><h3>Description :</h3></div>
+				<div class="description-list">
+					<ul>
+						<li>Superior Quality Fabric sourced from India and abroad</li>
+						<li>Made to Order Facility available at the store        </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

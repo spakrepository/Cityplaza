@@ -1,0 +1,33 @@
+<?php
+$_product = $this->getProduct();
+$_helper = $this->helper('catalog/output');
+?>
+<div>
+    <p class="product-image qproduct-image-zoom" id="qzoom-base-image" >
+        <a href="<?php echo $this->helper('catalog/image')->init($_product, 'image'); ?>" class="jqzoom" rel='gal1' rev="qPopup"  title="<?php echo $this->htmlEscape($this->getImageLabel()); ?>" >
+            <img id="image" src="<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(300); ?>"  width="300" height="300"  title="<?php echo $this->htmlEscape($this->getImageLabel()); ?>" alt="<?php echo $this->htmlEscape($this->getImageLabel()); ?>" />
+        </a>
+    </p>
+    <p class="zoom-notice" id="track_hint"><?php echo $this->__('Hover to zoom . Click to see full size image.') ?></p>
+
+    <?php if (count($this->getGalleryImages()) > 0): ?>
+        <div class="more-views">
+            <ul id="qzoom-thumnail-image" class="qzoom-thumnail">
+                <?php foreach ($this->getGalleryImages() as $_image): ?>
+                    <?php $smallImage = $this->helper('catalog/image')->init($this->getProduct(), 'image', $_image->getFile())->resize(60); ?>
+                    <?php $largeImage = $this->helper('catalog/image')->init($this->getProduct(), 'image', $_image->getFile()); ?>
+                    <li>
+                        <a  href='javascript:void(0);' class="qzoom-thumnail-image" rel="{gallery: 'gal1', smallimage: ' <?php echo $smallImage; ?>',largeimage: '<?php echo $largeImage; ?>'} ">
+                            <img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'image', $_image->getFile())->resize(60); ?>" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" />
+                        </a>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    <?php endif; ?>
+</div>
+<script type="text/javascript">
+    $j(document).ready(function() {
+        $j('.jqzoom').jqzoom({zoomType: 'standard',click:'click'});
+    });
+</script>

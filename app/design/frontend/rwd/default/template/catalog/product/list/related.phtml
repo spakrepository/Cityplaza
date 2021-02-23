@@ -1,0 +1,53 @@
+<?php if($this->getItems()->getSize()): ?>
+	<div class="block block-related">
+	    <div class="block-title">
+	        <h2><?php echo $this->__('Related Products') ?></h2>
+	    </div>
+		<div id="related_product" class="owl-carousel owl-theme products-grid">
+	    	<?php foreach($this->getItems() as $_product): ?>
+	            <div class="item">
+	                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(200,495) ?>" width="200" height="495" alt="<?php echo $this->escapeHtml($_product->getName()) ?>" /></a>
+	                <div class="product_list_detail">
+		                <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>"><?php echo $this->escapeHtml($_product->getName()) ?></a></h3>
+		                <div class="desc std">
+	                        <?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
+	                    </div>
+
+		                <?php /* echo $this->getReviewsSummaryHtml($_product, 'short') */ ?>
+		                <?php echo $this->getPriceHtml($_product, true, '-new') ?>
+		                <div class="actions">
+		                    <?php if($_product->isSaleable()): ?>
+		                        <a href="<?php echo $this->getAddToCartUrl($_product) ?>" class="list_addtocart" ><?php echo $this->__('Add to Cart') ?></a>
+		                    <?php endif; ?>
+	                        <?php if ($this->helper('wishlist')->isAllow()) : ?>
+	                            <a href="<?php echo $this->getAddToWishlistUrl($_product) ?>" class="list_addtowishlist" ><?php echo $this->__('Add to Wishlist') ?></a>
+	                        <?php endif; ?>
+	                        <?php if ($_compareUrl = $this->getAddToCompareUrl($_product)): ?>
+	                            <a href="<?php echo $_compareUrl ?>" class="list_addtocompare" ><?php echo $this->__('Add to Compare') ?></a>
+	                        <?php endif; ?>
+	                        <a href="<?php echo $this->getUrl('quickview/',array('productid'=>$_product->getId()));?>"  class="ajax-fancybox list_quickview" id="fancybox<?php echo $_product->getId()?>" ><?php echo $this->__('Quick View') ?></a>
+		                </div>
+		            </div>
+		         </div>
+	    	<?php endforeach; ?>
+		</div>
+	</div>
+<?php endif; ?>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	  jQuery("#related_product").owlCarousel({
+		  pagination:false,
+		  navigation:true,
+		  responsive:true,
+	      items : 5,
+	      itemsDesktopSmall : [767,3],
+	      navigationText: [
+	      "<i class='icon-chevron-left icon-white'></i>",
+	      "<i class='icon-chevron-right icon-white'></i>"
+	      ]
+     });
+
+
+    });
+</script>

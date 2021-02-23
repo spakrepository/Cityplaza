@@ -1,0 +1,77 @@
+<?php
+		$productid = Mage::app()->getRequest()->getParam('id');
+		$_product  = Mage::getModel('catalog/product')->load($productid);
+?>
+<div class="product-popup-left">
+	<img title="<?php echo $_product->getName() ?>" alt="<?php echo $_product->getName() ?>" src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(500); ?>"></p>
+	<?php echo $this->getChildHtml('media') ?>
+</div>
+<div class="product-popup-right">
+	<form action="<?php echo Mage::helper('checkout/cart')->getAddUrl($_product); ?>" method="post" id="product_addtocart_form_popup" <?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
+	<div class="product-shop">
+		<div class="product-name">
+			<h1><?php echo $_product->getName() ?></h1>
+		</div>
+
+		<?php
+		if($_product->isSaleable()){
+			if($_product->stock_item->is_in_stock == 1){
+				echo '<p class="availability in-stock"><span>'.$this->__('Availability: In stock.').'</span></p>';
+			}else{
+				echo '<p class="availability in-stock"><span>'.$this->__('Availability: Temporarily out of stock.').'</span></p>';
+			}
+		}
+		?>
+
+		<div class="price-box">
+			<span class="<?php if($_product->getFinalPrice() < $_product->getPrice()):?>old-price<?php else: ?>regular-price<?php endif; ?>">
+				<span class="price"><?php echo $this->helper('checkout')->formatPrice($_product->getPrice()); ?></span>
+			</span>
+			<?php if($_product->getFinalPrice() < $_product->getPrice()):?>
+			<span class="special-price">
+				<span class="price"><?php echo $this->helper('checkout')->formatPrice($_product->getFinalPrice()); ?></span>
+			</span>
+			<?php endif; ?>
+		</div>
+		<?php
+		if ($_product->getData('type_id') == "configurable"):
+		$config = $_product->getTypeInstance(true);
+		foreach($config->getConfigurableAttributesAsArray($_product) as $attributes):
+		?>
+			<div class="product-options">
+				<div><label class="required"><?php echo $attributes["label"]; ?><em>*</em></label></div>
+				<div>
+					<div class="input-box">
+						<select name="super_attribute[<?php echo $attributes['attribute_id'] ?>]" id="attribute<?php echo $attributes['attribute_id'] ?>" class="validate-quickview-select" style="width:200px;">
+							<option value=""><?php echo $this->__('Select'); ?></option>
+							<?php
+							foreach($attributes["values"] as $values)
+							{
+								echo "<option value='".$values["value_index"]."'>".$values["label"]."</option>";
+							}
+							?>
+						</select>
+					</div>
+				</div>
+			</div>
+		<?php
+		endforeach;
+		endif;
+		?>
+		<?php if($_product->isSaleable()): ?>
+			<?php if(!$_product->isGrouped()): ?>
+			<div class="product_quantity">
+				<label for="qty"><?php echo $this->__('Qty') ?>:</label>
+				<input type="text" name="qty" id="qty" maxlength="12" value="<?php echo ($this->getMinimalQty($_product)?$this->getMinimalQty($_product):1) ?>" />
+			</div>
+			<?php endif; ?>
+			<div class="add-to-box">
+				<button class="button btn-cart btn-quickview" type="submit">
+					<span><span><span><?php echo $this->__('Add to Cart') ?></span></span></span>
+				</button>
+			</div>
+		<?php endif; ?>
+		<div class="view_full"><a href="<?php echo $_product->getProductUrl() ?>" target="_blank"><?php echo $this->__('View More Details'); ?></a></div>
+	</div>
+	</form>
+</div>

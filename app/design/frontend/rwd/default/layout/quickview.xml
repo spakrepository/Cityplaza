@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="1.0">
+
+    <quickview_index_index>
+    	<update handle="catalog_product_view"/>
+    	<reference name="root">
+            <action method="setTemplate">
+                <template>catalog/product/view.phtml</template>
+            </action>
+
+        </reference>
+        <reference name="content">
+            <remove name="product.info.upsell"/>
+            <remove name="product.info.additional"/>
+            <remove name="product.description"/>
+            <remove name="product.attributes"/>
+            <remove name="product.info.addto"/>
+        </reference>
+    </quickview_index_index>
+
+</layout>

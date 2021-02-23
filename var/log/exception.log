@@ -1,0 +1,294 @@
+2018-10-26T07:42:46+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:50:59+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:50:59+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T10:51:00+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}
+2019-05-22T11:01:38+00:00 ERR (3): 
+exception 'Zend_Mail_Transport_Exception' with message 'Unable to send mail. ' in /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /home/cityplazaindia/public_html/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /home/cityplazaindia/public_html/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/Email/Queue.php(239): Zend_Mail->send()
+#3 [internal function]: Mage_Core_Model_Email_Queue->send(Object(Mage_Cron_Model_Schedule))
+#4 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(326): call_user_func_array(Array, Array)
+#5 /home/cityplazaindia/public_html/app/code/core/Mage/Cron/Model/Observer.php(72): Mage_Cron_Model_Observer->_processJob(Object(Mage_Cron_Model_Schedule), Object(Mage_Core_Model_Config_Element))
+#6 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1357): Mage_Cron_Model_Observer->dispatch(Object(Varien_Event_Observer))
+#7 /home/cityplazaindia/public_html/app/code/core/Mage/Core/Model/App.php(1336): Mage_Core_Model_App->_callObserverMethod(Object(Mage_Cron_Model_Observer), 'dispatch', Object(Varien_Event_Observer))
+#8 /home/cityplazaindia/public_html/app/Mage.php(448): Mage_Core_Model_App->dispatchEvent('default', Array)
+#9 /home/cityplazaindia/public_html/cron.php(77): Mage::dispatchEvent('default')
+#10 {main}

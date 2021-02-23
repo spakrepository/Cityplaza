@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+             <action method="addJs" ifconfig="qzoom/general/enable_jquery"><script>qaz/qzoom/jquery-1.6.js</script></action> 
+             <action method="addJs" ifconfig="qzoom/general/enable_jquery"><script>qaz/qzoom/jqueryNoconfig.js</script></action> 
+             <action method="addJs" ifconfig="qzoom/general/enable"><script>qaz/qzoom/jquery.qzoom.js</script></action> 
+             <action method="addJs" ifconfig="qzoom/general/enable"><script>qaz/qzoom/jquery.prettyPhoto.js</script></action> 
+              <action method="addCss" ifconfig="qzoom/general/enable"><stylesheet>qaz/qzoom/css/prettyPhoto.css</stylesheet></action>
+              <action method="addCss" ifconfig="qzoom/general/enable"><stylesheet>qaz/qzoom/css/global.css</stylesheet></action>
+        </reference>
+    </default>
+    <catalog_product_view>
+        <reference name="product.info.media">
+            <action method="setTemplate" ifconfig="qzoom/general/enable"><template>qaz/qzoom/catalog/product/view/media.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+</layout> 

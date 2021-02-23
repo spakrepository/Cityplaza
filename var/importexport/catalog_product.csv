@@ -1,0 +1,109 @@
+sku,_category,ean,name,brand,fabric,color,size,style,wash_care,pattern,finish,design_no,_attribute_set,_type,price,status,visibility,tax_class_id,_product_websites,image,image_label,small_image,thumbnail,_media_attribute_id,_media_image,_media_lable,_media_is_disabled,_super_products_sku,_super_attribute_code,_super_attribute_option,is_in_stock
+0000218723,Mens Formal & S-formal,C4416000180,F/S Shirt,Peter England,,A,39,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218724,Mens Formal & S-formal,C4416000181,F/S Shirt,Peter England,,A,40,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218725,Mens Formal & S-formal,C4416000182,F/S Shirt,Peter England,,A,42,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218726,Mens Formal & S-formal,C4416000183,F/S Shirt,Peter England,,A,44,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218803,Mens Formal & S-formal,C4416000231,F/S Shirt,Peter England,,B,39,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218804,Mens Formal & S-formal,C4416000232,F/S Shirt,Peter England,,B,40,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218805,Mens Formal & S-formal,C4416000233,F/S Shirt,Peter England,,B,42,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218806,Mens Formal & S-formal,C4416000234,F/S Shirt,Peter England,,B,44,.NA,,.NA,.NA,PSF31600775,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+PECO5MAY2016SF31600775,Mens Formal & S-formal,,F/S Shirt,Peter England,,,,.NA,,.NA,.NA,PSF31600775,Default,configurable,0,1,4,0,,,,,,,,,,0000218723,color,A,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218724,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218725,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218726,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218803,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218804,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218805,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218806,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218723,size,39,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218724,size,40,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218725,size,42,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218726,size,44,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218803,size,39,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218804,size,40,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218805,size,42,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218806,size,44,
+0000218810,Mens Formal & S-formal,C4416000238,F/S Shirt,Peter England,,B,44,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218809,Mens Formal & S-formal,C4416000237,F/S Shirt,Peter England,,B,42,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218808,Mens Formal & S-formal,C4416000236,F/S Shirt,Peter England,,B,40,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218807,Mens Formal & S-formal,C4416000235,F/S Shirt,Peter England,,B,39,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218727,Mens Formal & S-formal,C4416000184,F/S Shirt,Peter England,,A,39,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218728,Mens Formal & S-formal,C4416000185,F/S Shirt,Peter England,,A,40,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218729,Mens Formal & S-formal,C4416000186,F/S Shirt,Peter England,,A,42,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218730,Mens Formal & S-formal,C4416000187,F/S Shirt,Peter England,,A,44,.NA,,.NA,.NA,PSF31600781,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+PECO5MAY2016SF31600781,Mens Formal & S-formal,,F/S Shirt,Peter England,,,,.NA,,.NA,.NA,PSF31600781,Default,configurable,0,1,4,0,,,,,,,,,,0000218727,color,A,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218728,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218729,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218730,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218807,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218808,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218809,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218810,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218727,size,39,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218728,size,40,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218729,size,42,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218730,size,44,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218807,size,39,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218808,size,40,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218809,size,42,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218810,size,44,
+0000218760,Mens Formal & S-formal,C4416000217,Trouser,BlackBerrys,,A,32,.NA,,.NA,.NA,NL-MAGLOR,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218761,Mens Formal & S-formal,C4416000218,Trouser,BlackBerrys,,A,34,.NA,,.NA,.NA,NL-MAGLOR,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218762,Mens Formal & S-formal,C4416000219,Trouser,BlackBerrys,,A,36,.NA,,.NA,.NA,NL-MAGLOR,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+BBCO5MAY2016NL-MAGLOR,Mens Formal & S-formal,,Trouser,BlackBerrys,,,,.NA,,.NA,.NA,NL-MAGLOR,Default,configurable,0,1,4,0,,,,,,,,,,0000218760,color,A,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218761,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218762,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218760,size,32,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218761,size,34,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218762,size,36,
+0000218763,Mens Formal & S-formal,C4416000220,Trouser,BlackBerrys,,A,32,.NA,,.NA,.NA,BP-PLUTON,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218764,Mens Formal & S-formal,C4416000221,Trouser,BlackBerrys,,A,34,.NA,,.NA,.NA,BP-PLUTON,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218765,Mens Formal & S-formal,C4416000222,Trouser,BlackBerrys,,A,36,.NA,,.NA,.NA,BP-PLUTON,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+BBCO5MAY2016BP-PLUTON,Mens Formal & S-formal,,Trouser,BlackBerrys,,,,.NA,,.NA,.NA,BP-PLUTON,Default,configurable,0,1,4,0,,,,,,,,,,0000218763,color,A,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218764,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218765,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218763,size,32,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218764,size,34,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218765,size,36,
+0000218789,MensSuits,53416000019,Suit,VitoAdriano,,A,34,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218790,MensSuits,53416000020,Suit,VitoAdriano,,A,36,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218791,MensSuits,53416000021,Suit,VitoAdriano,,A,38,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218792,MensSuits,53416000022,Suit,VitoAdriano,,A,40,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218793,MensSuits,53416000023,Suit,VitoAdriano,,A,42,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218794,MensSuits,53416000024,Suit,VitoAdriano,,A,44,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218795,MensSuits,53416000025,Suit,VitoAdriano,,A,46,.NA,,.NA,.NA,1,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+VACO5MAY20161,MensSuits,,Suit,VitoAdriano,,,,.NA,,.NA,.NA,1,Default,configurable,0,1,4,0,,,,,,,,,,0000218789,color,A,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218790,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218791,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218792,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218793,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218794,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218795,color,A,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218789,size,34,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218790,size,36,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218791,size,38,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218792,size,40,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218793,size,42,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218794,size,44,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218795,size,46,
+0000218796,MensSuits,53416000026,Suit,VitoAdriano,,B,34,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218797,MensSuits,53416000027,Suit,VitoAdriano,,B,36,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218798,MensSuits,53416000028,Suit,VitoAdriano,,B,38,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218799,MensSuits,53416000029,Suit,VitoAdriano,,B,40,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218800,MensSuits,53416000030,Suit,VitoAdriano,,B,42,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218801,MensSuits,53416000031,Suit,VitoAdriano,,B,44,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+0000218802,MensSuits,53416000032,Suit,VitoAdriano,,B,46,.NA,,.NA,.NA,2,Default,simple,0,1,1,0,base,,,,,,,,,,,,1
+VACO5MAY20162,MensSuits,,Suit,VitoAdriano,,,,.NA,,.NA,.NA,.NA,Default,configurable,0,1,4,0,,,,,,,,,,0000218796,color,B,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218797,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218798,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218799,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218800,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218801,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218802,color,B,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218796,size,34,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218797,size,36,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218798,size,38,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218799,size,40,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218800,size,42,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218801,size,44,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000218802,size,46,

@@ -1,0 +1,13 @@
+sku,_category,ean,name,brand,fabric,color,size,style,wash_care,pattern,finish,design_no,_attribute_set,_type,price,status,visibility,_product_websites,image,image_label,small_image,thumbnail,_media_attribute_id,_media_image,_media_lable,_super_products_sku,_super_attribute_code,_super_attribute_option,is_in_stock
+1216287,TESTING,XX216000011,3/4 Pant-Test,Arvind,,Black,M,.NA,,.NA,.NA,9800,Default,simple,0,1,1,base,,,,,,,,,,,1
+1216288,TESTING,XX216000012,3/4 Pant-Test,Arvind,,Green,L,.NA,,.NA,.NA,9800,Default,simple,0,1,1,base,,,,,,,,,,,1
+1216277,TESTING,XX216000001,3/4 Pant-Test,Arvind,,Green,M,.NA,,.NA,.NA,9800,Default,simple,0,1,1,base,,,,,,,,,,,1
+1216278,TESTING,XX216000002,3/4 Pant-Test,Arvind,,Black,L,.NA,,.NA,.NA,9800,Default,simple,0,1,1,base,,,,,,,,,,,1
+base-123,TESTING,,3/4 Pant-Test,Arvind,,,,.NA,,.NA,.NA,9800,Default,configurable,0,1,4,,/image1.jpg,black,/image1.jpg,/image1.jpg,88,/image1.jpg,black,1216287,size,M,1
+,,,,,,,,,,,,,,,,,,,,,,,88,/image2.jpg,green,1216288,size,L,
+,,,,,,,,,,,,,,,,,,,,,,,88,/image3.jpg,,1216277,size,M,
+,,,,,,,,,,,,,,,,,,,,,,,,,,1216278,size,L,
+,,,,,,,,,,,,,,,,,,,,,,,,,,1216287,color,Black,
+,,,,,,,,,,,,,,,,,,,,,,,,,,1216288,color,Green,
+,,,,,,,,,,,,,,,,,,,,,,,,,,1216277,color,Green,
+,,,,,,,,,,,,,,,,,,,,,,,,,,1216278,color,Black,

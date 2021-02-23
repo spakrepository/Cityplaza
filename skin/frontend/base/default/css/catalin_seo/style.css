@@ -1,0 +1,51 @@
+div.price-slider {
+    background: url("../../images/catalin_seo/bkg_slider.png") repeat-x scroll 0 0 transparent;
+    height: 17px;
+}
+
+div.price-slider {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-radius: 12px;
+    height: 12px;
+}
+
+div.price-slider .filter-handle {
+    height: 17px;
+    width: 10px;
+    cursor: e-resize;
+    display: block;
+}
+
+div.price-slider .price-slider-from {
+    /*background: url("../../images/catalin_seo/slider.png") no-repeat scroll 0 0 transparent;*/
+    background: #B8B8B8;
+    width: 12px;
+    height: 12px;
+    border-radius:12px;
+}
+
+div.price-slider .price-slider-to {
+    /*background: url("../../images/catalin_seo/slider.png") no-repeat scroll -26px 0 transparent;*/
+    background: #B8B8B8;
+    width: 12px;
+    height: 12px;
+    border-radius:12px;
+    cursor: w-resize;
+    margin-top: -12px;
+}
+
+#narrow-by-list dd .configurable-swatch-list li{
+	width: auto !important;
+	display: inline-block;
+}
+
+#narrow-by-list dd .configurable-swatch-list li .count{
+	display: none;
+}
+
+#narrow-by-list dd .swatch-link {
+    border: medium none;
+    display: flex;
+    padding: 0;
+    text-align: left;
+}
